@@ -91,6 +91,20 @@ body{
 		to { background-position: 90% 90%; }
 	}
 
+	.btn{
+		margin-top: 50px;
+		width: 100%;
+		font-family: bebas;
+		font-size: 30px;
+	}
+	.buff{
+				margin-top: 50px;
+
+	}
+	iframe{
+		pointer-events: none;
+	}
+
 	@media screen and (max-width: 980px) {
 
 		.band{
