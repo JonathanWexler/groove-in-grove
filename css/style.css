@@ -16,6 +16,7 @@ body{
 	background-image: url(../images/owl.png);
 	background-position: 10px 10px;
 	background-repeat: repeat-x;
+	border: 5px solid #f9f3e8;
 	animation: animatedBackground 40s linear infinite;
 }
 .date{
@@ -99,7 +100,7 @@ body{
 		}
 		.fixed{
 			position: absolute;
-			top: 240px;
+			top: 340px;
 			font-family: bebas;
 		}
 	}
