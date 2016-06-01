@@ -1,0 +1,69 @@
+@font-face{
+	font-family: bebas;
+	src: url(BebasKai-Regular.otf);
+}
+body{
+	background-color: #f9f3e8;
+}
+
+.title_image{
+	width: 100%;
+	position: absolute;
+	/*z-index: 1;*/
+	background-image: url(../images/owl.png);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+	animation: animatedBackground 40s linear infinite;
+}
+.date{
+	width: 100%;
+	position: absolute;
+	font-size: 100px;
+	font-family: bebas;
+	text-align: center;
+	color: #7da8d0;
+	padding-top: 320px;
+}
+/*.title_background{
+	width: 100%;
+	position: absolute;
+	}*/
+
+	.title_container{
+
+	}
+
+	.band_list{
+		padding-top: 450px;
+		/*z-index: 1000;*/
+		width: 800px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.band{
+		font-size: 40px;
+		text-decoration: none;
+		font-family: bebas;
+	}
+	.band_list a:hover{
+		text-decoration: none;
+	}	
+
+	.band_list a:hover .band{
+		color: white;
+
+	}
+	.grey{
+		color: #333333;
+	}
+	.green{
+		color: #4f9f5b;
+	}
+	.blue{
+		color: #7da8d0;
+	}
+	@keyframes animatedBackground {
+		from { background-position: 0 0; }
+		to { background-position: 100% 100%; }
+	}
