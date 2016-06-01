@@ -6,6 +6,9 @@ body{
 	background-color: #f9f3e8;
 }
 
+.center{
+	text-align: center;
+}
 .title_image{
 	width: 100%;
 	position: absolute;
@@ -36,7 +39,7 @@ body{
 	.band_list{
 		padding-top: 450px;
 		/*z-index: 1000;*/
-		width: 800px;
+		width: 100%;
 		margin: 0 auto;
 		text-align: center;
 	}
@@ -63,7 +66,40 @@ body{
 	.blue{
 		color: #7da8d0;
 	}
+	.fixed{
+		position: fixed;
+		top:50px;
+		font-family: bebas;
+	}
+
+	.tickets{
+		left: 30px;
+	}
+
+	.location{
+		right: 30px;
+		text-align: right;
+	}
+
+	.final{
+		padding-top: 50px;
+		font-size: 30px;
+	}
 	@keyframes animatedBackground {
 		from { background-position: 0 0; }
 		to { background-position: 100% 100%; }
+	}
+
+	@media screen and (max-width: 780px) {
+
+		.band{
+			font-size: 20px;
+			text-decoration: none;
+			font-family: bebas;
+		}
+		.fixed{
+			position: absolute;
+			top: 240px;
+			font-family: bebas;
+		}
 	}
