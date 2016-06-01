@@ -6,6 +6,9 @@ body{
 	background-color: #f9f3e8;
 }
 
+.center{
+	text-align: center;
+}
 .title_image{
 	width: 100%;
 	position: absolute;
@@ -76,6 +79,11 @@ body{
 	.location{
 		right: 30px;
 		text-align: right;
+	}
+
+	.final{
+		padding-top: 50px;
+		font-size: 30px;
 	}
 	@keyframes animatedBackground {
 		from { background-position: 0 0; }
