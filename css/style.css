@@ -17,6 +17,7 @@ body{
 	background-position: 10px 10px;
 	background-repeat: repeat-x;
 	border: 5px solid #f9f3e8;
+	overflow: hidden;
 	animation: animatedBackground 40s linear infinite;
 }
 .date{
@@ -98,7 +99,7 @@ body{
 		font-size: 30px;
 	}
 	.buff{
-				margin-top: 50px;
+		margin-top: 50px;
 
 	}
 	iframe{
