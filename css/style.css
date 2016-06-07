@@ -12,7 +12,7 @@ body{
 .title_image{
 	width: 100%;
 	position: absolute;
-	z-index: 1;
+	/*z-index: 1;*/
 	/*background-image: url(../images/owl.png);*/
 	background-position: 10px 10px;
 	background-repeat: repeat-x;
