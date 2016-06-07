@@ -124,6 +124,25 @@ body{
 		pointer-events: none;
 	}
 
+	.logorithms{
+		/*position: absolute;*/
+		/*bottom: 0px;*/
+		/*right: 0px;*/
+		text-align: center;
+		float: right;
+		color: darkgrey;
+		font-size: 10px;
+		width: 100px;
+		padding: 10px;
+		padding-right: 20px;
+		font-family: bebas;
+		margin-top: -55px;
+
+	}
+	.logo{
+		width: 100%;
+	}
+
 	@media screen and (max-width: 980px) {
 
 		.band{
